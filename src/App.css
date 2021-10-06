@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    text-align: center;
+    background-color: #A8D0E6;
+    color: rgb(255, 255, 255);
+    
+}
+h1{
+    text-shadow: 0px 1px 2px #24305E;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(86, 123, 149); */
+    /* border:rgb(50,104,145); */
+    /* border: 1px solid rgb(50,104,145); */
+    background-color: #374785;
+    border: 1px solid #24305E;
+    border-radius: 3px;
+    padding: 10px 30px;
+    margin: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}

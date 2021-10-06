@@ -1,0 +1,16 @@
+.profile_info{
+    width: 50%;
+    border: 1px solid #24305E;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #24305E;
+    font-weight: 700; 
+    background-color: #F8E9A1;
+}
+
+.person_img{
+    width: 50%;
+    max-width: 900px;
+}
