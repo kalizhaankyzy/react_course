@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Indie+Flower&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.app{
+    border: steelblue 2px solid;
+    max-width: 700px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.btn{
+    display: inline-block;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+.task{
+    background-color:whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.task_done{
+    color:green;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+.task_delete{
+    color: red;
+    cursor: pointer;
+    float: right;
+}
+.task_data{
+    display: flex;
+    align-items: center;
+    color: midnightblue;
+    margin: 0;
+}
+.task_data p{
+    margin-left: 10px;
+}
+.no_tasks{
+    text-align: center;
+    font-size: 18px;
+    color: purple;
+}
+.task.done h3{
+    text-decoration: line-through;
+}
+.btn-task-done .btn{
+    background-color: red;
+}   
+.add-form{
+    margin-bottom: 30px;
+}
+.form-control{
+    margin: 15px auto;
+}
+.form-control input{
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    font-size: 14px;
+}
+.form-control-reminder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-control-reminder input{
+    width: 50%;
+    height: 20px;
+}
+.btn-save{
+    background-color: steelblue;
+    width: 100%;
+}
+footer{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    text-align: center;
+}

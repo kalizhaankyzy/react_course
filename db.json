@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "text": "task1",
+      "data": "friday",
+      "isDone": false,
+      "id": 1
+    }
+  ]
+}
