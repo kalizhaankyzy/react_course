@@ -21,10 +21,12 @@ export default function Login({ setAuthed }){
                             <div class="card-body p-5 text-center">
                                 <h3 class="mb-5">Login</h3>
                                 <div class="form-outline mb-4">
-                                    <input type="email" id="typeEmailX-2" class="form-control form-control-lg" placeholder="Email" value={username} onChange={(e)=>setUsername(e.target.value)} />
+                                    <input type="text" id="typeEmailX-2" class="form-control form-control-lg" placeholder="Username" value={username} onChange={(e)=>setUsername(e.target.value)} />
+                                    <label>username: test</label>
                                 </div>
                                 <div class="form-outline mb-4">
                                     <input type="password" id="typePasswordX-2" class="form-control form-control-lg" placeholder="Password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+                                    <label>password: qwerty</label>
                                 </div>
                                 <button class="btn btn-primary btn-lg btn-block w-100" type="submit" onClick={()=>loginToSystem()}>Login</button>
                                 {!isCorrect && 
